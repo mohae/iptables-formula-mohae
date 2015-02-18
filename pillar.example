@@ -10,10 +10,11 @@ firewall:
         - 10.0.2.2/32
 
   ports:
-    keyserver:
-        port: 11371
+    dns:
+        port: 53
         proto:
           - tcp
+          - udp
 
   whitelist:
     networks:
