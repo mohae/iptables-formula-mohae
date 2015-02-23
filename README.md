@@ -1,6 +1,9 @@
 iptables-formula
 ================
-## This is a fork of https://github.com/saltstack-formulas/iptables-formula
+### This is no longer being developed. 
+Please see https://github.com/mohae/salt-iptables instead.
+
+__This is a fork of https://github.com/saltstack-formulas/iptables-formula__
 __Differences:__  
 * `iptables/init.sls` includes the files it uses within the `iptables` directory.
 * `iptables/ufw.sls` was added to purge `ufw` and the contents of `/etc/ufw` from Ubuntu based systems
